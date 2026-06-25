@@ -15,47 +15,68 @@ background:#f5f5f5;
 header{
 background:#111827;
 color:white;
-padding:20px;
 text-align:center;
-}
-
-header h1{
-margin:0;
-font-size:32px;
-}
-
-header p{
-margin-top:8px;
-color:#ddd;
+padding:20px;
 }
 
 .container{
-max-width:1100px;
+max-width:900px;
 margin:auto;
-padding:25px;
+padding:20px;
+}
+
+.search{
+text-align:center;
+margin-bottom:20px;
+}
+
+.search input{
+width:70%;
+padding:12px;
+font-size:16px;
+border-radius:8px;
+border:1px solid #ccc;
+}
+
+.categories{
+text-align:center;
+margin-bottom:30px;
+}
+
+.categories button{
+padding:10px 20px;
+margin:5px;
+border:none;
+background:#f59e0b;
+color:white;
+border-radius:6px;
+cursor:pointer;
 }
 
 .card{
 background:white;
-border-radius:15px;
 padding:20px;
-box-shadow:0 5px 15px rgba(0,0,0,.1);
+border-radius:10px;
 text-align:center;
+box-shadow:0 2px 10px rgba(0,0,0,.1);
 }
 
 .card img{
 width:220px;
-border-radius:10px;
 }
 
-button{
-background:#ff9900;
+.card h2{
+margin:15px 0;
+}
+
+.card a button{
+padding:12px 25px;
+background:#f59e0b;
+color:white;
 border:none;
-padding:12px 30px;
-border-radius:8px;
-font-size:18px;
+border-radius:6px;
 cursor:pointer;
-margin-top:15px;
+font-size:16px;
 }
 </style>
 
@@ -69,25 +90,30 @@ margin-top:15px;
 </header>
 
 <div class="container">
-<div style="text-align:center;margin-bottom:25px;">
-<input type="text" placeholder="Search Products..."
-style="width:70%;max-width:500px;padding:12px;font-size:16px;border:1px solid #ccc;border-radius:8px;">
-</div><div style="text-align:center;margin-bottom:30px;">
 
-
-
+<div class="search">
+<input type="text" placeholder="Search Products...">
 </div>
 
-<div class="card">
-
-
-<div style="text-align:center;margin-bottom:20px;">
+<div class="categories">
 <button>Amazon</button>
 <button>WarriorPlus</button>
 <button>ZVZU</button>
 </div>
 
+<div class="card">
 
+<img src="https://via.placeholder.com/220x220.png?text=Product">
+
+<h2>Product Name</h2>
+
+<p>⭐⭐⭐⭐⭐</p>
+
+<p>$49.99</p>
+
+<a href="https://warriorplus.com/o2/a/qx9vwm3/0" target="_blank">
+<button>View Deal</button>
+</a>
 
 </div>
 
