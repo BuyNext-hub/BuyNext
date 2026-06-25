@@ -175,3 +175,39 @@ h2{
 .card button{
     margin-top:20px;
 }
+@media (max-width: 768px) {
+
+header h1{
+    font-size:32px;
+}
+
+header p{
+    font-size:16px;
+}
+
+.card{
+    width:90%;
+    margin:20px auto;
+    padding:20px;
+}
+
+.card img{
+    width:100%;
+    height:auto;
+}
+
+.card h2{
+    font-size:24px;
+}
+
+.card p{
+    font-size:16px;
+}
+
+.card button{
+    width:100%;
+    padding:15px;
+    font-size:18px;
+}
+
+}
