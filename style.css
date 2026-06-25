@@ -60,3 +60,40 @@ button:hover{
 h2{
     color:#222;
 }
+.categories{
+    display:flex;
+    justify-content:center;
+    margin:20px 0;
+}
+
+.categories button{
+    background:#f4b000;
+    color:#fff;
+    border:none;
+    padding:12px 28px;
+    border-radius:8px;
+    font-size:16px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.card{
+    max-width:400px;
+    margin:30px auto;
+    padding:30px;
+    background:#fff;
+    border-radius:12px;
+    text-align:center;
+    box-shadow:0 4px 12px rgba(0,0,0,.15);
+}
+
+.card button{
+    background:#f4b000;
+    color:#fff;
+    border:none;
+    padding:15px 35px;
+    border-radius:8px;
+    font-size:18px;
+    font-weight:bold;
+    cursor:pointer;
+}
