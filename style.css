@@ -39,7 +39,10 @@ button{
 }
 
 button:hover{
-    background:#d97706;
+    background:#ff9800;
+    transform: scales(1.05);
+    transition:  0.3s;
+    cursor:   pointer;
 }
 
 .card{
@@ -78,17 +81,17 @@ h2{
 }
 
 .card{
-    max-width:400px;
-    margin:30px auto;
-    padding:30px;
-    background:#fff;
-    border-radius:12px;
+    max-width:450px;
+    margin:20px auto;
+    padding:20px;
+    background:white;
+    border-radius:15px;
     text-align:center;
-    box-shadow:0 4px 12px rgba(0,0,0,.15);
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
 }
 
 .card button{
-    background:#f4b000;
+    background:#ff9800;
     color:#fff;
     border:none;
     padding:15px 35px;
