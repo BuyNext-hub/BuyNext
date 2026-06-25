@@ -148,3 +148,30 @@ h2{
 .card button:hover{
     background:#e68900;
 }
+.card{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding:30px;
+}
+
+.card img{
+    width:100%;
+    max-width:320px;
+}
+
+.card h2{
+    margin:20px 0 10px;
+}
+
+.card p{
+    margin:10px 0;
+}
+
+.card a{
+    text-decoration:none;
+}
+
+.card button{
+    margin-top:20px;
+}
