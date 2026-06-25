@@ -106,3 +106,45 @@ h2{
     border-radius:10px;
     margin-bottom:20px;
 }
+.card{
+    max-width:500px;
+    margin:40px auto;
+    padding:30px;
+    background:#fff;
+    border-radius:20px;
+    text-align:center;
+    box-shadow:0 10px 30px rgba(0,0,0,.15);
+}
+
+.card img{
+    width:100%;
+    max-width:350px;
+    border-radius:12px;
+    margin-bottom:20px;
+}
+
+.card h2{
+    font-size:30px;
+    margin:15px 0;
+}
+
+.card p{
+    font-size:18px;
+    color:#666;
+    line-height:1.6;
+}
+
+.card button{
+    background:#ff9800;
+    color:#fff;
+    padding:15px 35px;
+    border:none;
+    border-radius:8px;
+    font-size:18px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.card button:hover{
+    background:#e68900;
+}
