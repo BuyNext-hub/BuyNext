@@ -40,7 +40,7 @@ button{
 
 button:hover{
     background:#ff9800;
-    transform: scales(1.05);
+    transform: scale(1.05);
     transition:  0.3s;
     cursor:   pointer;
 }
